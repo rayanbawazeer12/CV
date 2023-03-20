@@ -1,0 +1,61 @@
+.footer{
+	animation: changeBg 10s linear infinite;
+
+}
+h1{
+	font-size:50px ;
+	text-align:center;
+	font-family:Californian FB;
+	color:#A4BDC4;
+}
+@keyframes changeBg {
+	0%{
+		background-color: black;
+	}
+	50%{
+		background-color: darkgrey;
+	}
+	100%{
+		background-color: black;
+	}
+}
+@keyframes changeText {
+	0%{
+		color:white;
+	}
+	50%{
+		color:#F1C792;
+	}
+	100%{
+		color:#E5A95C;
+	}
+}
+p{
+	animation: changeText 10s linear infinite;
+	text-align: center;
+	font-family:Californian FB;
+}
+h3{
+	font-size:25px ;
+	color:#DAD9D7;
+	text-align: center;
+	font-family:Californian FB;
+}
+h4{
+	font-size:35px ;
+	color:#4D4B4B;
+	font-family:Californian FB;
+}
+h5{
+	font-size:27px ;
+	color:#4D4B4B;
+	font-family:Californian FB;
+}
+pre{
+	font-size:27px ;
+	color:#4D4B4B;
+	font-family:Californian FB;
+}
+.end{
+	background-color:#E8E6E0;
+}
